@@ -2,7 +2,13 @@
 
 import random as rd
 import time
- 
+
+
+try:
+    f = open("isimler.txt" , "r" , encoding="utf-8")
+except:
+  print("Dosya açılırken hata oluştu")
+
 
 saat = time.asctime()
 #print(saat)
@@ -32,7 +38,6 @@ isim = input("Merhabalar ben meti, isminizi öğrenebilir miyim ? " ).strip().ca
 print()
 #print(f'Teşekkür ederim {isim} şimdi görüşmemize başlıyoruz. \n Size Nasıl Yardımcı Olabilirim ')
 
-f = open("isimler.txt" , "r" , encoding="utf-8")
 
 def foo():
     for satır in f:
@@ -99,7 +104,7 @@ while key:
             print("Meti --> " , list_bitirme[1])
         continue
             
-    if girdi == "var" or girdi == "evet vat" :
+    if girdi == "var" or girdi == "evet var" :
         print("Meti --> " ,"Yardımcı olmamı istediğiniz konuyu yazabilir misiniz ? \n\n-Şirket hakkında bilgi verebilir misin ? \n-Web siteme nasıl bot ekleyebilirim. \nMetisbot çeşitleri nelerdir ? \n-Ürün hakkında bilgi alabilir miyim ? \n-teknik problem yaşıyorum.") 
         continue
     
