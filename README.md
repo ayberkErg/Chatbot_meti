@@ -1,6 +1,6 @@
 # Chatbot_meti
 
-Chatbbotu özelikleri:
+Chatbot özelikleri:
 - Girilen ismi 12923 isim arasında analiz eder sonuca göre hanım ya da bey, eğer isim unisex bir isim ise Hanım / Bey hitabını kullanır.
 - Gün içerisinde kullanılan kelimelere cevap verir.
 - Verileirn olduğu dosyanın açılıp açılmadığını kontrol eder.
