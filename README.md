@@ -3,6 +3,7 @@
 Chatbbotu özelikleri:
 - Girilen ismi 12923 isim arasında analiz eder sonuca göre hanım ya da bey, eğer isim unisex bir isim ise Hanım / Bey hitabını kullanır.
 - Gün içerisinde kullanılan kelimelere cevap verir.
+- Verileirn olduğu dosyanın açılıp açılmadığını kontrol eder.
 - Kullanıcının girdiği kelimeleri filtreler ve programa uygun formata çevirir. (büyük küçük harf, fazladan bırakılan boşluklar)
 - Chatbot ile iletişim kurduğunuz saat sabah ya da akşam ise saat bilgisini alıp size ona uygun cevaplar verir.  (günaydın iyi akşamlar iyi günler gibi)
 - Şirket ve ürünler hakkında bilgiler verir.
