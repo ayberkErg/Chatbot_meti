@@ -1,5 +1,4 @@
 # Chatbot_meti
-Not: Proje ve isimler dosyasının aynı dizinde olmasına dikkat ediniz.
 
 Chatbbotu özelikleri:
 - Girilen ismi 12923 isim arasında analiz eder sonuca göre hanım ya da bey, eğer isim unisex bir isim ise Hanım / Bey hitabını kullanır.
@@ -23,5 +22,8 @@ Eksikler / Eklenecekler:
 
 
 
-Kodun tamamı Ayberk Ergüç'e aittir, Hiçbir yerden kopyala yapıştır yapılmamıştır.
 Veri Kaynağı: https://kerteriz.net/tum-turkce-erkek-ve-kadin-isimleri-cinsiyet-listesi-veritabani/
+Not: Proje ve isimler dosyasının aynı dizinde olmasına dikkat ediniz.
+
+
+Kodun tamamı Ayberk Ergüç'e aittir, Hiçbir yerden kopyala yapıştır yapılmamıştır.
